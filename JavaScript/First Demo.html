@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<body>
+    <div id="inline" style="cursor:pointer">Here</div>
+    <div id="loaded">Here</div>
+    <script>
+        var inlineDiv = document.getElementById("inline");
+
+        inlineDiv.onclick = function () {
+            inlineDiv.innerText= "Just Changed It";
+            inlineDiv.style.color = "aqua";
+        }
+
+    </script>
+<script type="text/javascript" src="external.js">
+
+</script>
+</body>
+</html>
+
