@@ -1,0 +1,29 @@
+.headbar{
+    width: 100%;
+    height: 60px;
+    background-color: #c5ccd4;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.linkrow{
+    position: relative;
+
+}
+.popoverbox{
+    position: absolute;
+    z-index: 999;
+    top: 50px;
+    background-color: #FFF;
+    border: solid 1px #DDD;
+    padding: 15px;
+}
+.flexrow{
+    display:flex;
+    align-items: center;
+}
+.link .glyphicon{
+    font-size: 12px;
+
+}
