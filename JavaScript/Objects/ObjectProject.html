@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div>
+        <div id="mycard"></div>
+        <div id = "title"></div>
+        <div id = "homeworld"></div>
+        <div id = "email"></div>
+        <div id = "Headshot"></div>
+    </div>
+
+</body>
+<script>
+    /*
+   var chewbacca = {
+       name: "Chewbacca",
+       title:"Chief Maintenance Officer",
+       homeworld:"Kashyyyk",
+       email: "hansbff@hotmail.com",
+       headshot: "images.jpg"
+   };
+   document.getElementById("mycard").innerHTML = chewbacca.name;
+   document.getElementById("title").innerHTML = chewbacca.title;
+   document.getElementById("homeworld").innerHTML = chewbacca.homeworld;
+   document.getElementById("email").innerHTML = chewbacca.email;
+   document.getElementById("headshot").innerHTML = chewbacca.headshot;
+
+*/
+   function Fish(){
+       this.speed = 5;
+       this.scaleColor = "orange";
+   }
+   var myfish = new Fish();
+
+   function Reflector(obj){
+
+       this.getAllPoperties= function () {
+           var properties = [];
+           for(var prop in obj){
+               properties.push(prop);
+           }
+            return properties;
+       };
+   }
+
+
+   var reflector = new Reflector(myfish);
+   document.getElementById("mycard").innerHTML = reflector.getAllPoperties().join('<br />');
+
+</script>
+
+</html>
