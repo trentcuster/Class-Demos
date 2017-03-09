@@ -14,38 +14,63 @@ getUserProfileAsyn('Trent', 'custertb', showProfile);
 
 
 
-function showWords(capitalize){
-    document.getElementById('capitalize').innerHTML=capitalize;
-}
+        function showWords(capitalize){
+            document.getElementById('capitalize').innerHTML=capitalize;
+        }
 
-function getWords(word1, word2, word3, callback){
-    setTimeout(function() {
-    var capitalize = '<h1>test</h1><h1>these</h1><h1>words</h1>';
-    callback(capitalize);
-}, Math.random() * 2000 + 1000);
-}
+        function getWords(word1, word2, word3, callback){
+            setTimeout(function() {
+            var capitalize = '<h1>test</h1><h1>these</h1><h1>words</h1>';
+            callback(capitalize);
+        }, Math.random() * 2000 + 1000);
+        }
 
-getWords('test', 'these','words', showWords);
+        getWords('test', 'these','words', showWords);
 
-function capitalizeFirstLetter(array, callback){
-    setTimeout(capitalizeFirstLetter, Math.random() * 2000 + 1000);
+        function capitalizeFirstLetter(array, callback){
+            setTimeout(capitalizeFirstLetter, Math.random() * 2000 + 1000);
 
-    function capitalizeFirstLetter(array){
-       for (var index = 0; index < array.length; index++){
-           var word = array[index];
-           var capitalizedWord = word[0].toUpperCase() + word.substr(1);
-           array[index] = capitalizedWord;
-       }
+            function capitalizeFirstLetter(array){
+               for (var index = 0; index < array.length; index++){
+                   var word = array[index];
+                   var capitalizedWord = word[0].toUpperCase() + word.substr(1);
+                   array[index] = capitalizedWord;
+               }00
+            }
+        }
+
+        var myArray = ['banana', 'apple', 'orange', 'pear'];
+
+        function display(array){
+            document.getElementById('array').innerHTML= myArray.toString();
+
+        }
+
+        document.getElementById('array').innerHTML= myArray.toString();
+
+        capitalizeFirstLetter(myArray, display);
+
+
+
+
+
+var anotherArray= ['banana',[],3232, function(){}, 'orange'];
+
+function filterNonStringItemsAsync(array, callback){
+    setTimeout(filterNonStringItems, Math.random()*2000 + 1000, array, callback);
+
+    function filterNonStringItems(anArray, ACallback){
+        var fileredArray = [];
+        anArray.forEach(function (item) {
+           if(typeof item == "string"){
+               fileredArray.push(item);
+           }
+        });
+        ACallback(fileredArray);
     }
 }
 
-var myArray = ['banana', 'apple', 'orange', 'pear'];
+filterNonStringItemsAsync(anotherArray, function (shinyFilteredArray) {
+    document.getElementById('filtered').innerText=shinyFilteredArray;
+})
 
-function display(array){
-    document.getElementById('array').innerHTML= myArray.toString();
-
-}
-
-document.getElementById('array').innerHTML= myArray.toString();
-
-capitalizeFirstLetter(myArray, display);
