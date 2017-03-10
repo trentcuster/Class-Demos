@@ -35,7 +35,7 @@ getUserProfileAsyn('Trent', 'custertb', showProfile);
                    var word = array[index];
                    var capitalizedWord = word[0].toUpperCase() + word.substr(1);
                    array[index] = capitalizedWord;
-               }00
+               }
             }
         }
 
