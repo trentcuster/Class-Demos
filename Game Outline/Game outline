@@ -1,0 +1,14 @@
+Width & Height
+States(3)
+    splash
+    game
+    score
+-Window Setup
+    width and height
+
+-Canvas Setup
+    create canvas
+    width and height
+
+-Append canvas
+
