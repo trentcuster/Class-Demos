@@ -15,6 +15,8 @@ function main() {
     canvasSetup();
     currentState= states.splash;
     document.body.appendChild(canvas);
+
+    loadGraphics();
 }
 
 function windowSetup(){
@@ -38,3 +40,16 @@ function canvasSetup() {
     renderingContext = canvas.getContext("2d");
 }
 
+function loadGraphics() {
+    var img = new Image();
+    img.src = "Images/zeldaSprite.png";
+    img.onload = function () {
+        initSprites(this);
+        renderingContext.fillStyle = "#8BE4DF";
+        renderingContext.fillRect(0, 0, width, height);
+
+        link.draw(renderingContext, 50, 50);
+
+    };
+
+}
