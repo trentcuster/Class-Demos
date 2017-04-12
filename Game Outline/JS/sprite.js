@@ -16,6 +16,11 @@ Sprite.prototype.draw = function (renderingContext, x, y) {
 
 //create a new character
 function initSprites(img) {
-    link = new Sprite(img, 0, 0, 40, 50);
+    //link = new Sprite(img, 0, 0, 45, 55);
+    link = [
+        new Sprite(img, 0, 0, 45, 55),
+        new Sprite(img, 45, 0, 45, 55),
+        new Sprite(img, 90, 0, 45, 55)
+    ];
 }
 

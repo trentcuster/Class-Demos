@@ -1,6 +1,8 @@
 var width,
     height,
-    currentState;
+    currentState,
+    frames = 0,
+    thehero;
 
 var states = {
     splash: 0,
@@ -10,13 +12,47 @@ var states = {
 var canvas;
 var renderingContext;
 
+function Hero(){
+    this.x = 20;
+    this.y = 20;
+
+    this.frame = 0;
+    this.velocity = 0;
+    this.animation = [0, 1, 2, 1];
+
+    this.rotation = 0;
+    this.radius = 12;
+
+    this.gravity = 0.25;
+    this._jump = 4.6;
+
+    this.update = function () {
+        var h = currentState === states.splash ? 10 : 5;
+        this.frame += frames % h === 0 ? 1 : 0;
+        this.frame %= this.animation.length;
+    }
+
+    this.draw = function(renderingContext){
+        renderingContext.save();
+
+        renderingContext.translate(this.x, this.y);
+        renderingContext.rotate(this.rotation);
+
+        var h = this.animation[this.frame];
+        link[h].draw(renderingContext, 140, 100);
+
+        renderingContext.restore();
+    }
+}
+
 function main() {
     windowSetup();
     canvasSetup();
-    currentState= states.splash;
+    currentState = states.splash;
     document.body.appendChild(canvas);
 
     loadGraphics();
+    thehero = new Hero();
 }
 
 function windowSetup(){
@@ -42,14 +78,33 @@ function canvasSetup() {
 
 function loadGraphics() {
     var img = new Image();
-    img.src = "Images/zeldaSprite.png";
+    img.src = "Images/linksheet_360.png";
     img.onload = function () {
         initSprites(this);
         renderingContext.fillStyle = "#8BE4DF";
-        renderingContext.fillRect(0, 0, width, height);
 
-        link.draw(renderingContext, 50, 50);
+        //link[0].draw(renderingContext, 50, 50);
+        gameLoop();
 
     };
 
 }
+
+
+function gameLoop() {
+    update();
+    render();
+    window.requestAnimationFrame(gameLoop);
+}
+
+function update(){
+    frames ++;
+    thehero.update();
+}
+
+function render() {
+    renderingContext.fillRect(0, 0, width, height);
+    thehero.draw(renderingContext);
+
+}
+

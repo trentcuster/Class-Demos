@@ -12,3 +12,12 @@ States(3)
 
 -Append canvas
 
+
+
+
+1. Create Canvas
+2. Sprite Sheet
+    -Reference to Image
+    -Definition of Sprite Area
+    -Draw Method to context
+    -Draw Sprite : set x ,y placement( firs.draw(rc, x, y);
