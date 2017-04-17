@@ -105,6 +105,5 @@ function update(){
 function render() {
     renderingContext.fillRect(0, 0, width, height);
     thehero.draw(renderingContext);
-
 }
 
