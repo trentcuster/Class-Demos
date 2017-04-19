@@ -31,7 +31,7 @@ function Hero(){
     }
 
     this.update = function () {
-        var h = currentState === states.splash ? 10 : 5;//every 10 browser frames = 1 hero frames
+        var h = currentState === states.splash ? 10 : 7;//every 10 browser frames = 1 hero frames
         this.frame += frames % h === 0 ? 1 : 0;
         this.frame %= this.animation.length;
 
