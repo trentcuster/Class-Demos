@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body, html
+        {
+            padding: 0;
+            margin: 0;
+            background-color: #000;
+        }
+        .bombButton
+        {
+            width: 70px;
+            height: 70px;
+        }
+        .buttonbox .btnimage{
+            width: 70px;
+        }
+        #canvasbox
+        {
+            width: 900px;
+            height: 500px;
+            margin: 30px;
+        }
+        .buttonbox
+        {
+            width: 900px;
+            height: 100px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body onload="main()">
+
+<div id = "canvasbox"></div>
+<div class = "buttonbox">
+    <a href="javascript: addbomb()" class="bombButton">
+        <img src="bombButton.png" class="btnimage"/>
+    </a>
+</div>
+
+<script src="index.js"></script>
+<script src="spritesheet.js"></script>
+
+</body>
+</html>
