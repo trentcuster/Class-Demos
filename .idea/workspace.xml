@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="163dbdd4-840c-4356-a593-fdf575c4b10e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/nameSpace/app.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/nameSpace/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/nameSpace/utilityFunctions.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.js" afterPath="$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.ts" afterPath="$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,36 +24,18 @@
     <favorites_list name="classdemos" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/TypeScript/nameSpace/app.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="utilityFunctions.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/TypeScript/nameSpace/utilityFunctions.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TDDevleopment/qunit.html" />
         <option value="$PROJECT_DIR$/OOP/singelton.html" />
         <option value="$PROJECT_DIR$/OOP/singelton.js" />
         <option value="$PROJECT_DIR$/Data Structure/Day 1.html" />
@@ -131,11 +111,12 @@
         <option value="$PROJECT_DIR$/TypeScript/Functions/app.ts" />
         <option value="$PROJECT_DIR$/TypeScript/firstdemo/interface.ts" />
         <option value="$PROJECT_DIR$/TypeScript/firstdemo/app.ts" />
-        <option value="$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.ts" />
         <option value="$PROJECT_DIR$/TypeScript/nameSpace/nameSpace.ts" />
         <option value="$PROJECT_DIR$/TypeScript/nameSpace/utilityFunctions.ts" />
         <option value="$PROJECT_DIR$/TypeScript/nameSpace/app.ts" />
         <option value="$PROJECT_DIR$/TypeScript/nameSpace/tsconfig.json" />
+        <option value="$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.js" />
+        <option value="$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.ts" />
       </list>
     </option>
   </component>
@@ -152,8 +133,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="33" />
-    <option name="y" value="1135" />
+    <option name="x" value="35" />
+    <option name="y" value="1103" />
     <option name="width" value="1774" />
     <option name="height" value="977" />
   </component>
@@ -203,24 +184,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classdemos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classdemos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TypeScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nameSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -252,7 +215,7 @@
       <recent name="$PROJECT_DIR$/Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.out.js">
+  <component name="RunManager" selected="Node.js.app.js (1)">
     <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/TypeScript/firstdemo/js">
       <method />
     </configuration>
@@ -332,9 +295,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.out.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.app.js (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.app.js (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.out.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.app.js (2)" />
         <item index="3" class="java.lang.String" itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
@@ -401,7 +364,8 @@
       <workItem from="1493301023951" duration="6121000" />
       <workItem from="1493646341920" duration="1228000" />
       <workItem from="1493818751732" duration="6423000" />
-      <workItem from="1493991874858" duration="4186000" />
+      <workItem from="1493991874858" duration="4217000" />
+      <workItem from="1494000517662" duration="759000" />
     </task>
     <task id="LOCAL-00001" summary="Carasal">
       <created>1487000798787</created>
@@ -421,7 +385,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241480000" />
+    <option name="totallyTimeSpent" value="242270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,14 +397,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="1135" width="1774" height="977" extended-state="0" />
+    <frame x="35" y="1103" width="1774" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19281232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21694915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -453,6 +416,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -502,7 +466,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data Structure/dayOne.js" />
     <entry file="file://$PROJECT_DIR$/Data Structure/Day 1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -811,14 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TypeScript/nameSpace/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -838,7 +793,7 @@
     <entry file="file://$PROJECT_DIR$/TypeScript/nameSpace/app.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -847,6 +802,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Property Rental Manger App/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding />
         </state>
       </provider>
