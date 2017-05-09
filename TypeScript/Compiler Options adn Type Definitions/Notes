@@ -1,0 +1,14 @@
+Day 7 slideshow
+
+Compiler Options :
+http://www.typescriptlang.org/docs/handbook/compiler-options.html
+
+square brackets in terminal/command line means it's optional
+
+tsconfig.json
+    -Marks the root of a typescript project
+    -Specifies ts compiler options
+    -Specifies files to include the project
+
+Map files will tell the computer where the breakpoints go.
+You have a breakpoint on ts, map tells js where to use it

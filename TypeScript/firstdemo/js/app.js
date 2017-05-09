@@ -1,5 +1,8 @@
 "use strict";
 var enums_1 = require('./enums');
+var _ = require('lodash');
+var snakeCaseTitle = _.snakeCase("this is some really funky voodoo");
+console.log(snakeCaseTitle);
 function getAllBooks() {
     var books = [
         { id: 1, title: 'Ulysses', author: 'James Joyce', available: true, category: enums_1.Category.Fiction },

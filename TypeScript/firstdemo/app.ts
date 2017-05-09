@@ -1,5 +1,9 @@
 import {Category} from './enums';
 import {Book, DamageLogger} from './interface';
+import * as _ from 'lodash';
+
+let snakeCaseTitle = _.snakeCase("this is some really funky voodoo");
+console.log(snakeCaseTitle);
 
 function getAllBooks(): Book[] {
     let books = [
@@ -23,6 +27,7 @@ function logFirstAvailable(books = getAllBooks()): void {
     }
     console.log('Total Books: ' + numberOfBooks);
     console.log('First Available: ' + firstAvailable);
+
 }
 
 
