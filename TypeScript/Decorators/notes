@@ -1,0 +1,30 @@
+Import shortcut
+    @(command spacebar and start typing name of decorator, auto complete)
+
+Implemented as functions
+
+Declarative programming
+
+May be attached to the following
+    -Classes
+    -Methods
+    -Accessors
+    -Properties
+    -Parameters
+
+Requires experimentalDecorators compiler option
+
+Syntax
+    function uiElement(target: Function) { do ui stuff }
+    function deprecated( t: any, p: string, d: PropertyDescriptor) {}
+
+        t : constructor
+        p : what your decorating
+        d :
+
+    @uiElement   //syntax to use uiElement as decorator for contactform
+    class ContactForm{
+        @deprecated  //syntax to use deprecated as decorator for someoldmethod
+        someOldMethod() {}
+    }
+

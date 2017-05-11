@@ -1,3 +1,6 @@
 To test bank application use console log's like the property manager app
 
 balance should be x after y months, testing the interest
+
+wrap all functions in a class? check notes for decorators : syntax
+

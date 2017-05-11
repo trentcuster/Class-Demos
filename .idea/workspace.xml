@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="163dbdd4-840c-4356-a593-fdf575c4b10e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Destructing Objects/destructing.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Destructing Objects/spreads.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Destructing Objects/type_aliases.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Destructing Objects/vehicle.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/notes for project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/app.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/classes.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/decorators.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/encyclopedia.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/enums.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/interfaces.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/app.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/classes.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/encyclopedia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/encyclopedia.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/enums.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/enums.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/interfaces.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/interfaces.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/lib/utilityFunctions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/lib/utilityFunctions.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/shelf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/shelf.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/lib/utilityFunctions.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/shelf.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/tsconfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/Decorators/notes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypeScript/vocabulary" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TypeScript/notes for project" afterPath="$PROJECT_DIR$/TypeScript/notes for project" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,73 +50,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypeScript/firstdemo/app.ts">
+      <file leaf-file-name="notes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/notes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="73" lean-forward="true" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vocabulary" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypeScript/vocabulary">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorators.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/decorators.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classes.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/classes.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/app.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="destructing.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypeScript/Destructing Objects/destructing.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spreads.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypeScript/Destructing Objects/spreads.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="type_aliases.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypeScript/Destructing Objects/type_aliases.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vehicle.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypeScript/Destructing Objects/vehicle.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notes for project" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notes for project" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TypeScript/notes for project">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TypeScript/firstdemo/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,17 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS Factory/Factory.html" />
-        <option value="$PROJECT_DIR$/JS Factory/Factory JS.js" />
-        <option value="$PROJECT_DIR$/Queue/Gueue.js" />
-        <option value="$PROJECT_DIR$/Queue/Queue.html" />
-        <option value="$PROJECT_DIR$/Queue/Queue.js" />
-        <option value="$PROJECT_DIR$/Golf Holes/GolfHoles.js" />
-        <option value="$PROJECT_DIR$/Golf Holes/Golf Holes.html" />
-        <option value="$PROJECT_DIR$/Link List/linklist.js" />
-        <option value="$PROJECT_DIR$/Decorator/decorator.html" />
-        <option value="$PROJECT_DIR$/Decorator/decorator.js" />
-        <option value="$PROJECT_DIR$/Observer/observer.html" />
         <option value="$PROJECT_DIR$/Observer/observer.js" />
         <option value="$PROJECT_DIR$/Function Review/functionreview.html" />
         <option value="$PROJECT_DIR$/Function Review/functionreview.js" />
@@ -182,6 +193,17 @@
         <option value="$PROJECT_DIR$/TypeScript/Destructing Objects/type_aliases.ts" />
         <option value="$PROJECT_DIR$/TypeScript/Destructing Objects/vehicle.ts" />
         <option value="$PROJECT_DIR$/TypeScript/notes for project" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/decorators.ts" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/TS/app.ts" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/TS/tsconfig.json" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/TS/TS/decorators.ts" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/tsconfig.json" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/decorators.js" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/notes" />
+        <option value="$PROJECT_DIR$/TypeScript/vocabulary" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/app.ts" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/decorators.ts" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/classes.ts" />
       </list>
     </option>
   </component>
@@ -225,7 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,9 +274,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classdemos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classdemos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TypeScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Decorators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classdemos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classdemos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TypeScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Decorators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1 - before 9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classdemos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classdemos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TypeScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Decorators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1 - before 9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,26 +359,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/TypeScript/firstdemo" />
-      <recent name="$PROJECT_DIR$/Game Outline/game2" />
-      <recent name="$PROJECT_DIR$/Coding Challenge/Single" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Game Outline/Images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Game Outline/game2" />
       <recent name="$PROJECT_DIR$/Game Outline/Images" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js" />
+      <recent name="$PROJECT_DIR$/TypeScript/Decorators" />
+      <recent name="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9" />
+      <recent name="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/TS" />
+      <recent name="$PROJECT_DIR$/TypeScript/firstdemo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.vehicle.js">
-    <configuration default="false" name="app.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/TypeScript/Property Rental Manger App">
-      <method />
-    </configuration>
-    <configuration default="false" name="destructing.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="destructing.js" working-dir="$PROJECT_DIR$/TypeScript/Destructing Objects">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.classes.js">
     <configuration default="false" name="spreads.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="spreads.js" working-dir="$PROJECT_DIR$/TypeScript/Destructing Objects">
       <method />
     </configuration>
@@ -298,6 +380,12 @@
       <method />
     </configuration>
     <configuration default="false" name="vehicle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="vehicle.js" working-dir="$PROJECT_DIR$/TypeScript/Destructing Objects">
+      <method />
+    </configuration>
+    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js">
+      <method />
+    </configuration>
+    <configuration default="false" name="classes.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="classes.js" working-dir="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -360,19 +448,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.destructing.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.spreads.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.type_aliases.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.vehicle.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.spreads.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.type_aliases.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.vehicle.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.classes.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.vehicle.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.type_aliases.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.spreads.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.destructing.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.app.js (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.classes.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.vehicle.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.type_aliases.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.spreads.js" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +530,8 @@
       <workItem from="1494000517662" duration="1092000" />
       <workItem from="1494337114676" duration="2204000" />
       <workItem from="1494339755896" duration="2107000" />
-      <workItem from="1494423519811" duration="3952000" />
+      <workItem from="1494423519811" duration="4075000" />
+      <workItem from="1494510483200" duration="5972000" />
     </task>
     <task id="LOCAL-00001" summary="Carasal">
       <created>1487000798787</created>
@@ -462,7 +551,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250866000" />
+    <option name="totallyTimeSpent" value="256961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,14 +564,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="1103" width="1681" height="977" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20060241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20060241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21694915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21694915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27118644" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -493,7 +583,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -532,6 +621,7 @@
         <option value="$PROJECT_DIR$/TypeScript/Destructing Objects/spreads.js" />
         <option value="$PROJECT_DIR$/TypeScript/Destructing Objects/type_aliases.js" />
         <option value="$PROJECT_DIR$/TypeScript/Destructing Objects/vehicle.js" />
+        <option value="$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/decorators.js" />
       </list>
     </option>
   </component>
@@ -550,76 +640,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Decorator/decorator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/animations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/animations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Observer/observer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Observer/observer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Function Review/functionreview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Function Review/functionreview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game Outline/Game outline">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Queue/Day 1/Queue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Queue/Day 1/Queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Link List/linklist.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -835,10 +855,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TypeScript/firstdemo/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="60">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -863,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,8 +904,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TypeScript/notes for project">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/decorators.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/js/decorators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/decorators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/vocabulary">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="73" lean-forward="true" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/classes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/Decorators/1 - before 9/decorators.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
